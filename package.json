@@ -1,6 +1,6 @@
 {
   "name": "component-dts",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "license": "MIT",
   "author": "Abbi",
   "main": "dist/index.js",
@@ -11,16 +11,16 @@
     "src"
   ],
   "scripts": {
+    "build-tailwind": "npx tailwindcss -o ./dist/tailwind.css --minify",
     "analyze": "size-limit --why",
-    "build": "yarn build-tailwind && dts build",
+    "build": "dts build && yarn build-tailwind",
     "build-storybook": "build-storybook",
     "lint": "dts lint",
     "prepare": "dts build",
     "size": "size-limit",
     "start": "dts watch",
     "storybook": "start-storybook -p 6006",
-    "test": "dts test --passWithNoTests",
-    "build-tailwind": "npx tailwindcss -o ./dist/tailwind.css --minify"
+    "test": "dts test --passWithNoTests"
   },
   "husky": {
     "hooks": {
