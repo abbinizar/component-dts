@@ -1,6 +1,6 @@
 {
   "name": "component-dts",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "license": "MIT",
   "author": "Abbi",
   "main": "dist/index.js",
@@ -20,7 +20,7 @@
     "start": "dts watch",
     "storybook": "start-storybook -p 6006",
     "test": "dts test --passWithNoTests",
-    "build-tailwind": "npx tailwindcss -o ./dist/tailwind.css --minify"
+    "build-tailwind": "npx tailwindcss -o ./dist/src/tailwind.css --minify"
   },
   "husky": {
     "hooks": {
