@@ -1,6 +1,6 @@
 {
   "name": "component-dts",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "license": "MIT",
   "author": "Abbi",
   "main": "dist/index.js",
@@ -11,7 +11,7 @@
     "src"
   ],
   "scripts": {
-    "build-tailwind": "npx tailwindcss -o ./dist/tailwind.css --minify",
+    "build-tailwind": "NODE_ENV=production npx tailwindcss -o ./dist/tailwind.css --minify",
     "analyze": "size-limit --why",
     "build": "dts build && yarn build-tailwind",
     "build-storybook": "build-storybook",
