@@ -1,6 +1,6 @@
 # DTS React Storybook Tailwind
 
-> Library Component which build with DTS framework and styled with tailwind
+> Component library which build with DTS framework and styled with tailwind
 
 [![NPM](https://img.shields.io/npm/v/react-lib-test.svg)](https://www.npmjs.com/package/component-dts) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 

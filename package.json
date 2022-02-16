@@ -20,7 +20,7 @@
     "start": "dts watch",
     "storybook": "start-storybook -p 6006",
     "test": "dts test --passWithNoTests",
-    "build-tailwind": "NODE_ENV=production npx tailwindcss -o ./dist/tailwind.css --minify"
+    "build-tailwind": "npx tailwindcss -o ./dist/tailwind.css --minify"
   },
   "husky": {
     "hooks": {
